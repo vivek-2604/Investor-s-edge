@@ -948,9 +948,8 @@
 }
 /*** Footer End ***/
 
-/*** copyright Start ***/
-.copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-dark) !important;
+@media (max-width: 768px) {
+    .project .project-carousel .project-item .project-content {
+        transform: translate(-50%, -25%);
+    }
 }
-/*** copyright end ***/
